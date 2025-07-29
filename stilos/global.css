@@ -94,7 +94,11 @@ main > section > div#conteiner > div#cartao > p {
     color: black;
 }
 
-
+section#maps > div > img {
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+}
 
 main > section > ul#mapas{
     margin: 10px auto;

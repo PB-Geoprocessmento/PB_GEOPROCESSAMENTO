@@ -41,6 +41,10 @@ Grandes telas: acima de 1200px
     header > div > menu > ul > li > a {
         color: black;
     }
+
+    section#maps > div > img#teladesktop {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -52,6 +56,9 @@ Grandes telas: acima de 1200px
     }
     header > div > menu > ul > li {
         display: inline-block;
+    }
+    section#maps > div > img#teladesktop {
+        display: none;
     }
     
 }
